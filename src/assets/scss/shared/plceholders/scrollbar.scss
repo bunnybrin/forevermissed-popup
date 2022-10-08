@@ -1,0 +1,25 @@
+@mixin scrollbar {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrolbar-track-color) var(--scrolbar-track-piece-color);
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: var(--scrolbar-track-piece-color);
+    border-radius: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--scrolbar-track-color);
+    border-radius: 8px;
+    min-height: 20px;
+  }
+}
+
+%scrollbar {
+  @include scrollbar;
+}

@@ -1,0 +1,37 @@
+:root {
+  --c-white: #ffffff;
+  --c-black: #000000;
+  --c-pink: #FFF8EF;
+  --c-erorrs: red;
+  --c-grey: rgba(51, 51, 51, 0.16);
+
+  --c-text: #3C1F1D;
+  --c-secondary-text: #876A68;
+  --c-text-active: #9C4619;
+
+
+  --box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.16);
+  --bgc-hr: #DFD8CF;
+
+  --bgc-popup: var(--c-pink);
+  --c-popup-background: rgba(0, 0, 0, 0.32);
+  --border-color-input: var(--c-grey);
+  --placeholder-color: rgba(172, 170, 173, 1);
+
+  --bgc-invite-item: #F6EFE6;
+
+  --scrolbar-track-color: #DFD8CF;
+  --scrolbar-track-piece-color: #F6EFE6;
+
+
+
+  --c-btn: var(--c-text);
+  --c-btn-invert-border: #3E1007;
+  --bgc-btn-invert: linear-gradient(90deg, #64362D 0%, #82544B 100%)#3E1007;
+  --role-title: var(--c-text);
+  --role-text: var(--c-secondary-text);
+  --role-icon: var(--c-text-active);
+}
+
+
+
