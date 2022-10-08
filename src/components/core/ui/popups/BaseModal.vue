@@ -54,6 +54,9 @@ export default {
     },
 
     close (payload = false) {
+      if (payload instanceof Event) {
+        payload = false
+      }
       this.$options.popupController.resolve(payload);
       this.isOpen = false;
     },
